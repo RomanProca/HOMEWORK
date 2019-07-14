@@ -1,0 +1,2 @@
+# HOMEWORK
+temă pentru acasa (:
