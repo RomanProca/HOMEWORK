@@ -8,21 +8,25 @@ public class FightSong
 
     static  void  display()
     {
-        System.out.println("Go, team, go!");
-        System.out.println("You can do it.");
+        displayGo();
         System.out.println("");
-        System.out.println("Go, team, go!");
-        System.out.println("You can do it.");
-        System.out.println("You're the best,");
-        System.out.println("In the West.");
+        displayGo();
+        displayBest ();
         System.out.println("");
-        System.out.println("Go, team, go!");
-        System.out.println("You can do it.");
-        System.out.println("You're the best,");
-        System.out.println("In the West.");
+        displayGo ();
+        displayBest ();
         System.out.println("");
-        System.out.println("Go, team, go!");
-        System.out.println("You can do it.");
+        displayGo ();
 
+    }
+    static void displayGo ()
+    {
+        System.out.println("Go, team, go!");
+        System.out.println("You can do it.");
+    }
+    static void displayBest ()
+    {
+        System.out.println("You're the best,");
+        System.out.println("In the West.");
     }
 }
