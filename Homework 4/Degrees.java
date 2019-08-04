@@ -17,4 +17,4 @@ class Degrees {
         double TotalDegrees = degrees + MinutesInDegrees;
         System.out.printf("%.0f degrees, %.0f minutes, %.0f second = %.4f degrees\n",degrees,minutes,seconds,TotalDegrees);
         }
-        }
+}
