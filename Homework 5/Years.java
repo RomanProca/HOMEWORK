@@ -7,11 +7,8 @@ class Years {
         n = input.nextLong();//1000000000
         long minutes = n;
         long years =(int) n / (365 * 1440);
-
         n = n % (365 * 1440);
         long days = (int) n /1440;
-
-
         System.out.println(minutes + " " + "minutes is approximately " + years + " " + "years and"+ " " + days + " " + "days");
     }
 }
