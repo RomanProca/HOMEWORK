@@ -9,7 +9,7 @@ class Great_circle_distance {
         double latitudeTwo = input.nextDouble();
         double longitudeTwo = input.nextDouble();
         double radius = 6371.01;
-        double d = radius * Math.asin(Math.sin(latitudeOne) * Math.sin(latitudeTwo) + Math.cos(latitudeOne) * Math.cos(latitudeTwo) * Math.cos(longitudeOne - longitudeTwo));
+        double d = radius * Math.acos(Math.sin(Math.toRadians(latitudeOne)) * Math.sin(Math.toRadians(latitudeTwo)) + Math.cos(Math.toRadians(latitudeOne)) * Math.cos(Math.toRadians(latitudeTwo)) * Math.cos(Math.toRadians(longitudeOne - longitudeTwo)));
         System.out.printf("The distance between the two points is %.4f km\n", d);
     }
 }
