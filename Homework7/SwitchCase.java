@@ -14,17 +14,15 @@ public class SwitchCase {
             case 7:
             case 8:
             case 10:
-            case 12: {
+            case 12:
                 System.out.println("Total number of days = 31");
-            }
-            break;
+                break;
             case 4:
             case 6:
             case 9:
-            case 11: {
+            case 11:
                 System.out.println("Total number of days = 30");
-            }
-            break;
+                break;
             case 2: {
                 System.out.println("Total number of days = 28 (29 in leap years)");
             }

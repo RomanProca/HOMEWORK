@@ -19,8 +19,10 @@ public class SwitchVowelOrConsonant {
             case 'u':
             case 'U':
                 System.out.printf("%c is vowel\n", n);
+                break;
             default:
                 System.out.printf("%c is consonant\n", n);
+                break;
         }
     }
 }

@@ -2,40 +2,44 @@ package Homework7;
 
 import java.util.Scanner;
 
+import static java.lang.System.out;
+
 public class TheSpeedOfSound {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter (air,water or steel):");
+        out.println("Enter (air,water or steel):");
         String n = input.nextLine();
-        System.out.println("Enter a distance");
+        out.println("Enter a distance");
         Double distance = input.nextDouble();
+        double time;
+
         switch (n) {
-            case "air": {
-                System.out.println("Air:");
-                System.out.println("Speed: 1,100 feet per seconds");
-                System.out.printf("Distance: %.2f\n", distance);
-                double time = distance / 1.100;
-                System.out.println("Time" + " " + time + " " + "seconds");
+            case "air":
+                out.println("Air:");
+                out.println("Speed: 1,100 feet per seconds");
+                out.printf("Distance: %.2f\n", distance);
+                time = distance / 1.100;
+                out.println("Time" + " " + time + " " + "seconds");
                 break;
-            }
-            case "water": {
-                System.out.println("Water:");
-                System.out.println("Speed: 4,900 feet per seconds");
-                System.out.printf("Distance: %.2f\n", distance);
-                double time = distance / 4.900;
-                System.out.println("Time" + " " + time + " " + "seconds");
+
+            case "water":
+                out.println("Water:");
+                out.println("Speed: 4,900 feet per seconds");
+                out.printf("Distance: %.2f\n", distance);
+                time = distance / 4.900;
+                out.println("Time" + " " + time + " " + "seconds");
                 break;
-            }
-            case "steel": {
-                System.out.println("Steel:");
-                System.out.println("Speed: 16,400 feet per seconds");
-                System.out.printf("Distance: %.2f\n", distance);
-                double time = distance / 16.400;
-                System.out.println("Time" + " " + time + " " + "seconds");
+
+            case "steel":
+                out.println("Steel:");
+                out.println("Speed: 16,400 feet per seconds");
+                out.printf("Distance: %.2f\n", distance);
+                time = distance / 16.400;
+                out.println("Time" + " " + time + " " + "seconds");
                 break;
-            }
+
             default:
-                System.out.println("Error");
+                out.println("Error");
                 break;
         }
     }
