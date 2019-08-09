@@ -1,7 +1,7 @@
 package Homework4;
 
 import java.util.Scanner;
-class Seconds2 {
+class SecondsV2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         long n;
