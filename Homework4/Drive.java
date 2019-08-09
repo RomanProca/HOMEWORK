@@ -9,6 +9,6 @@ class Drive {
         System.out.println("Enter the petrol(L):");
         l = input.nextDouble();
         double n = l / km;
-        System.out.printf("Consum:%.2f l/km\n", n);
+        System.out.printf("Consume:%.2f l/km\n", n);
     }
 }

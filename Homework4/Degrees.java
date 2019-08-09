@@ -1,3 +1,5 @@
+package Homework4;
+
 import java.util.Scanner;
 class Degrees {
     public static void main(String[] args) {
@@ -6,7 +8,7 @@ class Degrees {
         double minutes;
         double seconds;
         System.out.println("Enter a latitude in degrees, minutes, and seconds:");
-        System.out.println("Firts, enter the degrees:");
+        System.out.println("First's, enter the degrees:");
         degrees = input.nextDouble();
         System.out.println("Next, enter the minute of arc:");
         minutes = input.nextDouble();

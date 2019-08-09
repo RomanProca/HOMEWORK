@@ -1,3 +1,5 @@
+package Homework4;
+
 import java.util.Scanner;
 class Seconds2 {
     public static void main(String[] args) {

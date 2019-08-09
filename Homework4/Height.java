@@ -1,11 +1,12 @@
-import java.io.*;
+package Homework4;
+
 class Height {
     public static void main(String[] args) {
         double height = 175;
         Conversion(height);
     }
 
-    static void Conversion(double height) {
+    private static void Conversion(double height) {
         double inch = 0.3937 * height;
         int intPart = (int) inch;
         System.out.printf("Height in integer inches: %d \n", intPart);
