@@ -1,11 +1,13 @@
-public class Lanterns {
+package Homework3;
+
+class Lanterns {
 
     public static void main(String[] args)
     {
         display();
     }
 
-    static void display() {
+    private static void display() {
         displayVoidOne();
         displayOne();
         displayTwo();
@@ -18,29 +20,29 @@ public class Lanterns {
         displayTree();
         displayTree();
     }
-        static void displayOne ()
+        private static void displayOne()
         {
             displayTree ();
             System.out.println("  *********  ");
             displayFor ();
         }
-        static void displayTwo ()
+        private static void displayTwo()
         {
             System.out.println("* | | | | | *");
         }
-        static void displayTree ()
+        private static void displayTree()
         {
             System.out.println("    *****    ");
         }
-        static void displayFor ()
+        private static void displayFor()
         {
             System.out.println("*************");
         }
-        static void displayVoid ()
+        private static void displayVoid()
         {
             System.out.println(" ");
         }
-        static void displayVoidOne ()
+        private static void displayVoidOne()
         {
             displayOne ();
             displayVoid ();

@@ -1,3 +1,5 @@
+package Homework3;
+
 public class FightSong
 {
 
@@ -6,7 +8,7 @@ public class FightSong
         display();
     }
 
-    static  void  display()
+    private static  void  display()
     {
         displayGo();
         System.out.println(" ");
@@ -19,12 +21,12 @@ public class FightSong
         displayGo ();
 
     }
-    static void displayGo ()
+    private static void displayGo()
     {
         System.out.println("Go, team, go!");
         System.out.println("You can do it.");
     }
-    static void displayBest ()
+    private static void displayBest()
     {
         System.out.println("You're the best,");
         System.out.println("In the West.");
