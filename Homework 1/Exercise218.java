@@ -10,6 +10,6 @@ public class Exercise218
 		System.out.print("*       *  *       *    *      *   *   \n");
 		System.out.print("*       *   *     *     *       * *    \n");
 		System.out.print("*********     ***       *        *     \n");
-		System.out.printf("\n");
+		System.out.print("\n");
 						}
 	}

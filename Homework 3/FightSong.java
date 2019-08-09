@@ -9,13 +9,13 @@ public class FightSong
     static  void  display()
     {
         displayGo();
-        System.out.println("");
+        System.out.println(" ");
         displayGo();
         displayBest ();
-        System.out.println("");
+        System.out.println(" ");
         displayGo ();
         displayBest ();
-        System.out.println("");
+        System.out.println(" ");
         displayGo ();
 
     }

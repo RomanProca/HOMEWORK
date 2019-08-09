@@ -10,6 +10,6 @@ public class Movie
         System.out.print("XXXXX  X        X  XXXXX\n");
         System.out.print("X   X  X        X  X   X\n");
         System.out.print("X   X  X        X  X   X\n");
-        System.out.printf("\n");
+        System.out.print("\n");
     }
 }

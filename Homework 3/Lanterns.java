@@ -38,7 +38,7 @@ public class Lanterns {
         }
         static void displayVoid ()
         {
-            System.out.println("");
+            System.out.println(" ");
         }
         static void displayVoidOne ()
         {
