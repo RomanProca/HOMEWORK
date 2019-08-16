@@ -42,11 +42,11 @@ public class InternetServiceProvider {
                 System.out.println("Enter the number of hours:");
                 int h = input.nextInt();
                 if (h > ALL_PACKETS_MIN_HOURS && h <= PACKET_B_MAX_HOURS) {
-                    double save = PACKET_A_10_HOURS_CHARGE + PACKET_B_MAX_HOURS - PACKET_B_20_HOURS_CHARGE;
+                    double save = (PACKET_A_10_HOURS_CHARGE + PACKET_B_MAX_HOURS) - PACKET_B_20_HOURS_CHARGE;
                     System.out.printf("Payment: %.2f$ per mount\n Saved from Packet A: %.2f$", PACKET_B_20_HOURS_CHARGE, save);
                 } else {
                     double totalCharges = PACKET_B_20_HOURS_CHARGE + (h - PACKET_B_MAX_HOURS);
-                    double save = PACKET_A_10_HOURS_CHARGE + (h - PACKET_A_MAX_HOURS) * PACKET_A_ADDITIONAL_HOUR_CHARGE - PACKET_B_20_HOURS_CHARGE + (h - PACKET_B_MAX_HOURS);
+                    double save = ((PACKET_A_10_HOURS_CHARGE + ((h - PACKET_A_MAX_HOURS) * PACKET_A_ADDITIONAL_HOUR_CHARGE)) - PACKET_B_20_HOURS_CHARGE) + (h - PACKET_B_MAX_HOURS);
                     System.out.printf("Payment: %.2f$ per mount\n Saved from Packet A: %.2f$", totalCharges, save);
                 }
                 break;
@@ -54,7 +54,7 @@ public class InternetServiceProvider {
             case PACKET_C: {
                 System.out.println("Enter the number of hours:");
                 int h = input.nextInt();
-                double save = PACKET_B_20_HOURS_CHARGE + (h - PACKET_B_MAX_HOURS) - PACKET_UNLIMITED_HOURS_CHARGE;
+                double save = (PACKET_B_20_HOURS_CHARGE + (h - PACKET_B_MAX_HOURS)) - PACKET_UNLIMITED_HOURS_CHARGE;
                 System.out.printf("Payment: %.2f$ per mount\n Saved from Packet B: %.2f$", PACKET_UNLIMITED_HOURS_CHARGE, save);
             }
             break;

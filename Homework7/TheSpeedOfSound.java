@@ -19,7 +19,7 @@ public class TheSpeedOfSound {
                 out.println("Speed: 1,100 feet per seconds");
                 out.printf("Distance: %.2f\n", distance);
                 time = distance / 1.100;
-                out.println("Time" + " " + time + " " + "seconds");
+                out.printf("Time %s seconds%n", time);
                 break;
 
             case "water":
@@ -27,7 +27,7 @@ public class TheSpeedOfSound {
                 out.println("Speed: 4,900 feet per seconds");
                 out.printf("Distance: %.2f\n", distance);
                 time = distance / 4.900;
-                out.println("Time" + " " + time + " " + "seconds");
+                out.printf("Time %s seconds%n", time);
                 break;
 
             case "steel":
@@ -35,7 +35,7 @@ public class TheSpeedOfSound {
                 out.println("Speed: 16,400 feet per seconds");
                 out.printf("Distance: %.2f\n", distance);
                 time = distance / 16.400;
-                out.println("Time" + " " + time + " " + "seconds");
+                out.printf("Time %s seconds%n", time);
                 break;
 
             default:
