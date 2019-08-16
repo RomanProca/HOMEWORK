@@ -1,3 +1,5 @@
+package Homework6;
+
 import java.util.Scanner;
 class Great_circle_distance {
     public static void main(String[] args) {

@@ -14,5 +14,5 @@ public class AreaOfaTriangle {
         double y3 = input.nextDouble();
         double area = ((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2))) / 2;
         System.out.printf("The area of the triangle is: %.1f \n",Math.abs(area));
-}
+    }
 }

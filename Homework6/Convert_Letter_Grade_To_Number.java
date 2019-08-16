@@ -1,3 +1,5 @@
+package Homework6;
+
 import java.util.Scanner;
  class Convert_Letter_Grade_To_Number {
      public static void main(String... args) {

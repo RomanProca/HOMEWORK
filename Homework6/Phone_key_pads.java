@@ -1,3 +1,5 @@
+package Homework6;
+
 import java.util.Scanner;
 class Phone_key_pads {
     public static void main(String... args) {
