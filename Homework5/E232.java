@@ -1,53 +1,55 @@
+package Homework5;
+
 import java.util.Scanner;
-class E232v2 {
+class E232 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Insert 5 numbers:");
-        Integer a = in.nextInt();
-        Integer b = in.nextInt();
-        Integer c = in.nextInt();
-        Integer d = in.nextInt();
-        Integer e = in.nextInt();
-        Integer countOfPositiveIntegers = 0;
-        Integer countOfNegativeIntegers = 0;
-        Integer countOfZero = 0;
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int c = input.nextInt();
+        int d = input.nextInt();
+        int e = input.nextInt();
+        int countOfPositiveIntegers = 0;
+        int countOfNegativeIntegers = 0;
+        int zero = 0;
         if (a > 0) {
             countOfPositiveIntegers++;
-        }else if (a<0){
+        } else if (a != 0) {
             countOfNegativeIntegers++;
-        }else{
-            countOfZero++;
+        } else {
+            zero++;
         }
         if (b > 0) {
             countOfPositiveIntegers++;
-        }else if (b < 0){
+        } else if (b != 0) {
             countOfNegativeIntegers++;
-        }else{
-            countOfZero++;
+        } else {
+            zero++;
         }
         if (c > 0) {
             countOfPositiveIntegers++;
-        }else if (c<0){
+        } else if (c != 0) {
             countOfNegativeIntegers++;
-        }else{
-            countOfZero++;
+        } else {
+            zero++;
         }
         if (d > 0) {
             countOfPositiveIntegers++;
-        }else if (d<0){
+        } else if (d != 0) {
             countOfNegativeIntegers++;
-        }else{
-            countOfZero++;
+        } else {
+            zero++;
         }
         if (e > 0) {
             countOfPositiveIntegers++;
-        }else if (e<0){
+        } else if (e != 0) {
             countOfNegativeIntegers++;
-        }else{
-            countOfZero++;
+        } else {
+            zero++;
         }
         System.out.printf("Positive: %d\n", countOfPositiveIntegers);
         System.out.printf("Negative: %d\n", countOfNegativeIntegers);
-        System.out.printf("Zero: %d\n", countOfZero);
+        System.out.printf("Zero: %d\n", zero);
     }
 }

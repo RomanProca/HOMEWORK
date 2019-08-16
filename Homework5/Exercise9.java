@@ -1,3 +1,5 @@
+package Homework5;
+
 class Exercise9{
     public static void main(String[] args) {
         Byte b = 1;
@@ -11,5 +13,6 @@ class Exercise9{
         Character c = 'a';
 
         Boolean boo = false;
+
     }
 }

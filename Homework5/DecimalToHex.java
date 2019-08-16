@@ -1,6 +1,8 @@
+package Homework5;
+
 import java.util.Scanner;
 
-public class Decimal_to_hex {
+public class DecimalToHex {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -10,15 +12,15 @@ public class Decimal_to_hex {
 
         if (decimal <= 15 && decimal  >= 10) {
             int value = ('A' + decimal - 10);
-            System.out.println("The hex value is " + (char)value );
+            System.out.printf("The hex value is %s%n", (char) value);
         }
 
         else if (decimal  <= 10 && decimal  >= 0) {
-            System.out.println("The hex value is " + decimal );
+            System.out.printf("The hex value is %d%n", decimal);
         }
 
         else {
-            System.out.println(decimal + " " + "is an invalid input");
+            System.out.printf("%d is an invalid input.%n", decimal);
         }
     }
 }

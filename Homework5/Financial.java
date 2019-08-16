@@ -1,3 +1,5 @@
+package Homework5;
+
 import java.util.Scanner;
 class Financial {
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
+package Homework5;
+
 import java.util.Scanner;
-class Ascii_code {
+class AsciiCode {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter ASCII code:");
