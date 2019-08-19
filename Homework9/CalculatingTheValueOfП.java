@@ -13,7 +13,7 @@ public class CalculatingTheValueOfП {
                 computedValue += 4.0 / j;
             else
                 computedValue -= 4.0 / j;
-    }
+        }
         System.out.println(pi - computedValue);
-}
+    }
 }
