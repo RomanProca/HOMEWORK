@@ -6,6 +6,7 @@ public class BusinessCheck_ISBN13 {
     public static void main(String[] args) {
         System.out.println("Enter the first 12 digits of an ISBN-13 as a string:");
         Scanner in = new Scanner(System.in);
+
         String str = in.nextLine();//978013213080
         int odd = 0;
         int even = 0;
@@ -25,3 +26,6 @@ public class BusinessCheck_ISBN13 {
 
     }
 }
+//return type
+//return statement
+//parameters
