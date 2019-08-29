@@ -1,8 +1,8 @@
 package Homework1;
-
-public class Exercise218
-	{
-	public static void main(String... args){
+//exercise 2.18 (nr. 2)
+class PatternOfAsterisks {
+	String one(){
+		System.out.print("\n");
 		System.out.print("*********     ***       *        *     \n");
 		System.out.print("*       *   *     *    ***      * *    \n");
 		System.out.print("*       *  *       *  *****    *   *   \n");
@@ -13,5 +13,6 @@ public class Exercise218
 		System.out.print("*       *   *     *     *       * *    \n");
 		System.out.print("*********     ***       *        *     \n");
 		System.out.print("\n");
-						}
+		return "";
+		}
 	}
