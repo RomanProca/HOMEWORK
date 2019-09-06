@@ -2,8 +2,7 @@ package Homework3;
 
 class Lanterns {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         display();
     }
 
@@ -20,32 +19,32 @@ class Lanterns {
         displayTree();
         displayTree();
     }
-        private static void displayOne()
-        {
-            displayTree ();
-            System.out.println("  *********  ");
-            displayFor ();
-        }
-        private static void displayTwo()
-        {
-            System.out.println("* | | | | | *");
-        }
-        private static void displayTree()
-        {
-            System.out.println("    *****    ");
-        }
-        private static void displayFor()
-        {
-            System.out.println("*************");
-        }
-        private static void displayVoid()
-        {
-            System.out.println(" ");
-        }
-        private static void displayVoidOne()
-        {
-            displayOne ();
-            displayVoid ();
-        }
+
+    private static void displayOne() {
+        displayTree();
+        System.out.println("  *********  ");
+        displayFor();
+    }
+
+    private static void displayTwo() {
+        System.out.println("* | | | | | *");
+    }
+
+    private static void displayTree() {
+        System.out.println("    *****    ");
+    }
+
+    private static void displayFor() {
+        System.out.println("*************");
+    }
+
+    private static void displayVoid() {
+        System.out.println(" ");
+    }
+
+    private static void displayVoidOne() {
+        displayOne();
+        displayVoid();
+    }
 
 }

@@ -8,7 +8,7 @@ class CrapsGameData {
         do {
             int dice1 = r.nextInt(6) + 1;
             int dice2 = r.nextInt(6) + 1;
-            int score = dice1 + dice2 ;
+            int score = dice1 + dice2;
             System.out.println("You rolled " + dice1 + " + " + dice2 + " = " + score);
 
             if (score == 7 || score == 11) {
@@ -17,8 +17,8 @@ class CrapsGameData {
             } else if (score == 2 || score == 3 || score == 12) {
                 System.out.println("You lose");
                 break;
-            }else
+            } else
                 System.out.println("Point is " + score);
-        }while (true);
+        } while (true);
     }
 }

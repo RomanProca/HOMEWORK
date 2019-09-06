@@ -2,7 +2,7 @@ package Homework15;
 
 class NumberOfDaysInAYearData {
 
-    Integer daysYear(int fromYear,int toYear) {
+    Integer daysYear(int fromYear, int toYear) {
         int totalDays = 0;
         for (; fromYear < toYear; fromYear++) {
             int days;

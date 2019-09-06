@@ -11,4 +11,8 @@ class SumTheDigitsInAnIntegerData {
         return sum;
     }
 
+    public static void reset() {
+        sum = 0;
+    }
+
 }

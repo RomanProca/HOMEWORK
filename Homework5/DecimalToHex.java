@@ -10,16 +10,12 @@ public class DecimalToHex {
         int decimal = input.nextInt();
 
 
-        if (decimal <= 15 && decimal  >= 10) {
+        if (decimal <= 15 && decimal >= 10) {
             int value = ('A' + decimal - 10);
             System.out.printf("The hex value is %s%n", (char) value);
-        }
-
-        else if (decimal  <= 10 && decimal  >= 0) {
+        } else if (decimal <= 10 && decimal >= 0) {
             System.out.printf("The hex value is %d%n", decimal);
-        }
-
-        else {
+        } else {
             System.out.printf("%d is an invalid input.%n", decimal);
         }
     }

@@ -3,8 +3,7 @@ package Homework12;
 import java.util.Scanner;
 
 public class ReverseAString {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         System.out.println("Enter string to reverse:");
 
         Scanner in = new Scanner(System.in);

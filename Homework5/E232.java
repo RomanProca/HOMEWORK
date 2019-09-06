@@ -1,6 +1,7 @@
 package Homework5;
 
 import java.util.Scanner;
+
 class E232 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

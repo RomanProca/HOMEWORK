@@ -1,6 +1,7 @@
 package Homework5;
 
 import java.util.Scanner;
+
 class E232v2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -15,37 +16,37 @@ class E232v2 {
         Integer countOfZero = 0;
         if (a > 0) {
             countOfPositiveIntegers++;
-        }else if (a<0){
+        } else if (a < 0) {
             countOfNegativeIntegers++;
-        }else{
+        } else {
             countOfZero++;
         }
         if (b > 0) {
             countOfPositiveIntegers++;
-        }else if (b < 0){
+        } else if (b < 0) {
             countOfNegativeIntegers++;
-        }else{
+        } else {
             countOfZero++;
         }
         if (c > 0) {
             countOfPositiveIntegers++;
-        }else if (c<0){
+        } else if (c < 0) {
             countOfNegativeIntegers++;
-        }else{
+        } else {
             countOfZero++;
         }
         if (d > 0) {
             countOfPositiveIntegers++;
-        }else if (d<0){
+        } else if (d < 0) {
             countOfNegativeIntegers++;
-        }else{
+        } else {
             countOfZero++;
         }
         if (e > 0) {
             countOfPositiveIntegers++;
-        }else if (e<0){
+        } else if (e < 0) {
             countOfNegativeIntegers++;
-        }else{
+        } else {
             countOfZero++;
         }
         System.out.printf("Positive: %d\n", countOfPositiveIntegers);

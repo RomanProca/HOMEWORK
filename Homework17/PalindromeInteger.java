@@ -5,7 +5,4 @@ public class PalindromeInteger {
         System.out.println(PalindromeIntegerData.reverse(456));
         System.out.println(PalindromeIntegerData.isPalindrome(111));
     }
-
-
-
 }

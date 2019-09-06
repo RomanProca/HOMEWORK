@@ -1,9 +1,7 @@
 package Homework2;
 
-class Movie
-{
-    void movie()
-    {
+class Movie {
+    void movie() {
         System.out.print("\n");
         System.out.print("'Here's Johnny!'\n");
         System.out.print("'Here's Johnny!',The Shining, Jack Nicholson, 1980\n");

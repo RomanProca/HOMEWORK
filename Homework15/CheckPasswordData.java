@@ -9,7 +9,6 @@ class CheckPasswordData {
         if (password.length() < PASSWORD_LENGTH) return "Not a valid password: " + password;
 
 
-
         for (int i = 0; i < password.length(); i++) {
 
             char ch = password.charAt(i);

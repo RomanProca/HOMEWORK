@@ -10,7 +10,7 @@ public class BarChartPrintingProgram {
         for (int i = 0; i < v; i++) {
             System.out.println("Enter values:");
             int n = input.nextInt();
-            for(int j = 1; j <= n; j++) {
+            for (int j = 1; j <= n; j++) {
                 System.out.print("*");
             }
         }

@@ -1,13 +1,24 @@
 package Homework16;
 
 class Player {
-    static final String FIGHT = "All heroes are ready for the battle";
+    static final String FIGHT = "All heroes are ready for the battle\n";
+    static final String VICTORY = "\nBoss was defeated";
 
     private String heroName;
     private String heroClass;
     private Integer heroLevel;
     private String heroGender;
 
+    Player() {
+        {
+            this.heroName = "Dark Knight";
+            this.heroClass = "Tank";
+            this.heroGender = "Unknown";
+            {
+                System.out.println(heroName + " logged to the game");
+            }
+        }
+    }
 
     Player(String heroName, String heroClass, Integer heroLevel, String heroGender) {
         {
@@ -32,6 +43,7 @@ class Player {
     }
 
     void divineJudgement() {
+
         System.out.println(heroName + " use Divine Judgement to hold boss at place for while");
     }
 

@@ -1,9 +1,10 @@
 package Homework4;
 
 import java.util.Scanner;
+
 class Degrees {
     public static void main(String[] args) {
-        Scanner input = new Scanner( System.in );
+        Scanner input = new Scanner(System.in);
         double degrees;
         double minutes;
         double seconds;
@@ -15,8 +16,8 @@ class Degrees {
         System.out.println("Finally, enter the second of arc:");
         seconds = input.nextDouble();
         double SecondsInMinutes = seconds / 60;
-        double MinutesInDegrees = ( minutes + SecondsInMinutes ) / 60;
+        double MinutesInDegrees = (minutes + SecondsInMinutes) / 60;
         double TotalDegrees = degrees + MinutesInDegrees;
-        System.out.printf("%.0f degrees, %.0f minutes, %.0f second = %.4f degrees\n",degrees,minutes,seconds,TotalDegrees);
-        }
+        System.out.printf("%.0f degrees, %.0f minutes, %.0f second = %.4f degrees\n", degrees, minutes, seconds, TotalDegrees);
+    }
 }

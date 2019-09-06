@@ -9,5 +9,5 @@ public class ProcessString {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
 
-        }
     }
+}

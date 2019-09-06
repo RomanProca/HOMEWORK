@@ -2,14 +2,11 @@ package Homework8;
 
 public class TheTwelveDaysOfChristmas {
 
-    public static void main(String [] args)
-    {
-        for(int i=1; i<=12;i++)
-        {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 12; i++) {
             System.out.print("On the ");
 
-            switch(i)
-            {
+            switch (i) {
                 case 12:
                     System.out.print("Twelfth");
                     break;
@@ -57,8 +54,7 @@ public class TheTwelveDaysOfChristmas {
 
             System.out.println(" Day of Christmas my true love gave to me ");
 
-            switch(i)
-            {
+            switch (i) {
                 case 12:
                     System.out.println(" Twelve Drummers Drumming ");
 

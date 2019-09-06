@@ -9,7 +9,7 @@ public class FindTheHighestScore {
         Scanner in = new Scanner(System.in);
         int numberOfInputs = in.nextInt();
         int highestScore = Integer.MIN_VALUE;
-        String winnerName="Not a name";
+        String winnerName = "Not a name";
         for (int i = 1; i <= numberOfInputs; i++) {
             in.nextLine();
             System.out.println("Enter students name:");

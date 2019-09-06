@@ -1,6 +1,6 @@
 package Homework5;
 
-class Exercise9{
+class Exercise9 {
     public static void main(String[] args) {
         Byte b = 1;
         Short s = 2;

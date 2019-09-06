@@ -1,6 +1,7 @@
 package Homework4;
 
 import java.util.Scanner;
+
 class Population {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
