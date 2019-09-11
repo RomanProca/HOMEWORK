@@ -1,6 +1,6 @@
 package Homework17;
 
-public class IntegerReversedData {
+public class IntegerReversed {
     public static void reverseVoid(int number) {
         long reverse = 0;
         while (number != 0) {
