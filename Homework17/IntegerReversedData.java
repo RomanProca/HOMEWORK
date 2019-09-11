@@ -1,13 +1,24 @@
 package Homework17;
 
 public class IntegerReversedData {
-    private static int reversed = 0;
-
-    public static void reverse(int number) {
-        for (; number != 0; number /= 10) {
-            int digit = number % 10;
-            reversed = reversed * 10 + digit;
+    public static void reverseVoid(int number) {
+        long reverse = 0;
+        while (number != 0) {
+            reverse *= 10;
+            reverse += number % 10;
+            number /= 10;
         }
-        System.out.println(reversed);
+        System.out.println(reverse);
+    }
+
+    public static long reverse(long number) {
+        long reverse = 0;
+        while (number != 0) {
+            reverse *= 10;
+            reverse += number % 10;
+            number /= 10;
+        }
+        return reverse;
     }
 }
+
