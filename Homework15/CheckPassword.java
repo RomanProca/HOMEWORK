@@ -1,17 +1,37 @@
 package Homework15;
 
-public class CheckPassword {
+class CheckPassword {
+    private static final int PASSWORD_LENGTH = 8;
 
-    public static void main(String[] args) {
+    String validatePassword(String password) {
+        int numCount = 0;
+        int charCount = 0;
+        if (password.length() < PASSWORD_LENGTH) return "Not a valid password: " + password;
 
 
-        CheckPasswordData checkPasswordData = new CheckPasswordData();
-        System.out.println("1. A password must have at least eight characters.\n" +
-                "2. A password consists of only letters and digits.\n" +
-                "3. A password must contain at least two digits \n");
-        System.out.println(checkPasswordData.validatePassword("longPassword123"));
-        System.out.println(checkPasswordData.validatePassword("password"));
-        System.out.println(checkPasswordData.validatePassword("123"));
+        for (int i = 0; i < password.length(); i++) {
 
+            char ch = password.charAt(i);
+
+            if (is_Numeric(ch)) numCount++;
+            else if (is_Letter(ch)) charCount++;
+            else return "Not a valid password: " + password;
+        }
+
+
+        return "Password is valid: " + password;
     }
+
+    private static boolean is_Letter(char ch) {
+        ch = Character.toUpperCase(ch);
+        return (ch >= 'A' && ch <= 'Z');
+    }
+
+
+    private static boolean is_Numeric(char ch) {
+
+        return (ch >= '0' && ch <= '9');
+    }
+
+
 }

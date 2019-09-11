@@ -1,8 +1,18 @@
 package Homework17;
 
 public class PalindromeInteger {
-    public static void main(String[] args) {
-        System.out.println(PalindromeIntegerData.reverse(456));
-        System.out.println(PalindromeIntegerData.isPalindrome(111));
+    private static int reversed = 0;
+
+    public static int reverse(int number) {
+        for (; number != 0; number /= 10) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+        }
+        return reversed;
+    }
+
+    public static boolean isPalindrome(int number) {
+        reversed = reverse(number);
+        return reversed == reverse(reversed);
     }
 }

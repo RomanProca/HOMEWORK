@@ -1,6 +1,6 @@
 package Homework13;
 
-public class StringInformation {
+public class CountUppercaseLettersTest {
     public static void main(String[] args) {
     CountUppercaseLetters c = new CountUppercaseLetters();
     System.out.println(c.calculateUppercaseLetters("Welcome to Java"));
