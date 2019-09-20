@@ -4,8 +4,8 @@ class CountUppercaseLetters {
     String calculateUppercaseLetters(String uppercase) {
         System.out.println();
         int upperCaseCount = 0;
-        for (int i = 0; i < uppercase.length(); i++){
-            for(char c = 'A'; c <= 'Z'; c++){
+        for (int i = 0; i < uppercase.length(); i++) {
+            for (char c = 'A'; c <= 'Z'; c++) {
                 if (uppercase.charAt(i) == c)
                     upperCaseCount++;
             }

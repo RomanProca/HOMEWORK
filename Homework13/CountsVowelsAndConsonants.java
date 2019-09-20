@@ -1,7 +1,7 @@
 package Homework13;
 
-class CountsVowelsAndConsonants {
-    static int countVowelLetters(String stringToCheck) {
+public class CountsVowelsAndConsonants {
+    public static int countVowelLetters(String stringToCheck) {
         int numberOfVowels = 0;
         for (int i = 0; i < stringToCheck.length(); i++) {
             if (isVowel(stringToCheck.toLowerCase().charAt(i)))
@@ -10,7 +10,7 @@ class CountsVowelsAndConsonants {
         return numberOfVowels;
     }
 
-    static int countConsonantLetters(String stringToCheck) {
+    public static int countConsonantLetters(String stringToCheck) {
         int numberOfConsonants = 0;
         for (int i = 0; i < stringToCheck.length(); i++) {
             if (isConsonant(stringToCheck.toLowerCase().charAt(i)))
@@ -30,6 +30,4 @@ class CountsVowelsAndConsonants {
                 || c == 'l' || c == 'z' || c == 'x' || c == 'c'
                 || c == 'v' || c == 'b' || c == 'n' || c == 'm';
     }
-
-
 }

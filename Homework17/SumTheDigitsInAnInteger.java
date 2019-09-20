@@ -14,5 +14,4 @@ class SumTheDigitsInAnInteger {
     public static void reset() {
         sum = 0;
     }
-
 }

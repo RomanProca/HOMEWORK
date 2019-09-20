@@ -1,8 +1,8 @@
 package Homework18;
 
 public class TwinPrimes {
-    public static void displayTwinPrimes() {
-        for (int i = 2; i < 1000; i++) {
+    public static void displayTwinPrimes(int n) {
+        for (int i = 1; i < n; i++) {
             if (isPrime(i) && isPrime(i + 2)) {
                 System.out.printf("(%d, %d)\n", i, i + 2);
             }
